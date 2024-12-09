@@ -68,7 +68,7 @@ const Navbar = () => {
         <ul className="flex flex-col md:flex-row justify-center items-start md:items-center gap-4 md:gap-8 text-[#726E8D] text-base p-6 md:p-0">
           {['Plant pots', 'Ceramics', 'Tables', 'Chairs', 'Crockery', 'Tableware', 'Cutlery'].map((item) => (
             <li key={item}>
-              <link href="/">{item}</link>
+              <Link href="/">{item}</Link>
             </li>
           ))}
           
